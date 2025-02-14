@@ -1,0 +1,17 @@
+# Environment
+jupyter
+ipykernel
+
+# Basic libraries
+matplotlib
+
+# Machine Learning & Deep Learning
+tensorflow # Contains: opencv-python | seaborn | numpy | scipy | pandas | h5py
+scikit-learn
+
+# Computer Vision
+
+Pillow
+
+# Kaggle
+kaggle
