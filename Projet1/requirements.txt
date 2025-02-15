@@ -4,9 +4,10 @@ ipykernel
 
 # Basic libraries
 matplotlib
+pandas
 
 # Machine Learning & Deep Learning
-tensorflow # Contains: opencv-python | seaborn | numpy | scipy | pandas | h5py
+tensorflow # Contains: opencv-python | seaborn | numpy | scipy | h5py
 scikit-learn
 
 # Computer Vision
@@ -15,3 +16,4 @@ Pillow
 
 # Kaggle
 kaggle
+kagglehub
