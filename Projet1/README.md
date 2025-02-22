@@ -1,4 +1,4 @@
-# Setting Up and Running Jupyter Notebook with a Virtual Environment (Linux)
+# Setting up the Virtual Environment for Project1 (Linux)
 
 This guide will walk you through setting up the correct virtual environment (`venv`) for this project on Linux. It includes checking the system requirements, running the setup script, and using Jupyter Notebook with the virtual environment.
 
@@ -53,16 +53,6 @@ What the setup.sh Script Does:
 - Installs Required Dependencies: It installs all dependencies listed in the requirements.txt file into the virtual environment.
 - Installs Jupyter and Creates a Kernel: Jupyter is installed, and a kernel named venv_project1 is created for Jupyter Notebook.
 
-If you want to be sure you activated the venv, run this:
-```
-bash setup.sh
-```
-or
-```
-./setup.sh
-```
-
-And follow step 3.
 ## 3. Verify Virtual Environment Activation
 
 Once the setup.sh script completes, the terminal should show that the virtual environment is activated. It should look something like this:
@@ -110,17 +100,10 @@ If the kernel is missing, rerun the setup.sh script to register it.
 
 !!!
 
-If you can't manually select the venv kernel for the .ipynb file, look at the next URL:
+If you can't manually select the venv kernel for the .ipynb file, look at this solution:
 https://stackoverflow.com/questions/58119823/jupyter-notebooks-in-visual-studio-code-does-not-use-the-active-virtual-environm
 
 !!!
-
-### 5.3 Permission Issues on Linux
-
-If you encounter permission errors during the setup process, you may need to run the setup.sh script with sudo:
-```
-sudo bash setup.sh
-```
 
 ## 6. Additional Commands
 ### 6.1 Check Available Jupyter Kernels
@@ -141,7 +124,7 @@ jupyter kernelspec uninstall venv_project1
 | Step	| Command |
 |-------|---------|
 | Verify python version | python3 --version |
-| Run Setup Script | bash setup.sh |
+| Run Setup Script | source setup.sh |
 | Activate Virtual Environment | source .venv/bin/activate |
 | Check Installed Kernels | jupyter kernelspec list |
 | Remove an Old Kernel | jupyter kernelspec uninstall venv_project1 |
